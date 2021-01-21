@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: aqua;
+    height: 50px;
+}
+.footer{
+    background: coral;
+    height: 50px;
+}
+.pre_foter{
+    display: flex;
+}
+
+.left_f{
+    width: 800px;
+    height: 100px;
+    background:red;
+}
+.rigth_f{
+    width: 400px;
+    height: 100px;
+    background:blueviolet;
+}
+.blocks{
+display: flex;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    background: green;
+    height: 500px;
+    width: 500px;
+}
+
+.side{
+    background: purple;
+    height: 700px;
+    width: 500px;
+}
+
+.block3{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    background: blueviolet;
+    height: 1000px;
+    width: 700px;
+}
+
+.extra{
+    background: darkred;
+    height: 200px;
+    width: 700px;
+}
+
